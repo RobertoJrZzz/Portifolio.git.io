@@ -1,10 +1,13 @@
 
-body{
+html, body{
     background-image: url(./img/capa.png);
     font-family: "Oswald", sans-serif;
     color: white;
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Evita a barra de rolagem horizontal */
 }
 
 #about{

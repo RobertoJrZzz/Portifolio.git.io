@@ -10,6 +10,7 @@
 
     .profile{
         font-size: 20px;
+        
     }
 
     .my-content{
@@ -39,10 +40,17 @@
     
     .section-text{
         justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
     }
 
     .titulo{
-        font-size: 30px;
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 14px;
     }
    
     .lng{
@@ -72,12 +80,20 @@
         justify-content: center;
       }
 
-   .text-prt{
-    font-size: 10px;
-   }
+    .text-prt{
+        font-size: 10px;
+    }
 
-   .port{
-    padding: 10px;
-    margin: -45px;
- }
+    .port{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        margin: 10px;
+    }
+
+    .prt{
+       padding: 0px;
+
+      }
 }
