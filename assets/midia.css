@@ -22,8 +22,7 @@
     }
     
     .eu2{
-        height: 100px;
-        width: 100px;
+       display: none;
     }
 
     #header-content{
@@ -36,6 +35,10 @@
 
     .section{
         font-size: 15px;
+    }
+    
+    .section-text{
+        justify-content: center;
     }
 
     .titulo{
@@ -60,11 +63,21 @@
      }
      
      .img-prt{
-        height: 200px;
+        height: 160px;
      }
 
      #content-prt{
         display: flex;
         flex-direction: column;
+        justify-content: center;
       }
+
+   .text-prt{
+    font-size: 10px;
+   }
+
+   .port{
+    padding: 10px;
+    margin: -45px;
+ }
 }
