@@ -1,0 +1,70 @@
+@media (max-width: 768px) {
+
+    .list{
+        flex-direction: column;
+        align-items: start;
+        font-size: 15px;
+        display: none;
+    }
+
+
+    .profile{
+        font-size: 20px;
+    }
+
+    .my-content{
+        font-size: 10px;
+    }
+
+    .eu{
+        height: 100px;
+        width: 100px;
+    }
+    
+    .eu2{
+        height: 100px;
+        width: 100px;
+    }
+
+    #header-content{
+        padding: 10px;
+    }
+
+    #Link{
+        font-size: 20px;
+    }
+
+    .section{
+        font-size: 15px;
+    }
+
+    .titulo{
+        font-size: 30px;
+    }
+   
+    .lng{
+        height: 40px;
+     }
+
+     .text-hbl{
+        font-size: 12px;
+        margin: 3px;
+     }
+
+     .hbl{
+        padding: 5px;
+     }
+
+     #Habilidades{
+        margin-top: -200px;
+     }
+     
+     .img-prt{
+        height: 200px;
+     }
+
+     #content-prt{
+        display: flex;
+        flex-direction: column;
+      }
+}
